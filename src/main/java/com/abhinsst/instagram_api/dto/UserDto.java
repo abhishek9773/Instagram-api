@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Userdto {
+public class UserDto {
 
   private Integer id;
   private String username;
@@ -23,7 +23,7 @@ public class Userdto {
       return false;
     if (getClass() != obj.getClass())
       return false;
-    Userdto other = (Userdto) obj;
+    UserDto other = (UserDto) obj;
     if (id == null) {
       if (other.id != null)
         return false;
