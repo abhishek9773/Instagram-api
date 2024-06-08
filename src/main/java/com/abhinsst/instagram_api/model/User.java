@@ -38,7 +38,7 @@ public class User {
   private String mobile;
   private String website;
   private String bio;
-  private String image;
+  private String userImage;
 
   private String password;
 

@@ -2,9 +2,12 @@ package com.abhinsst.instagram_api.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.abhinsst.instagram_api.exception.UserException;
 import com.abhinsst.instagram_api.model.User;
 
+@Service
 public interface UserService {
 
   public User registerUser(User user) throws UserException;
